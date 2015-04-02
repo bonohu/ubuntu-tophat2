@@ -8,8 +8,6 @@ RUN apt-get update &&\
     apt-get clean &&\
     apt-get -y install unzip &&\
     apt-get clean &&\
-    apt-get -y python &&\
-    apt-get clean &&\
     rm -rf /var/lib/apt/lists/* &&\
     wget http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.5/bowtie2-2.2.5-linux-x86_64.zip &&\
     wget http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.14.Linux_x86_64.tar.gz &&\
