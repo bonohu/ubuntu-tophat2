@@ -3,7 +3,6 @@ FROM ubuntu
 MAINTAINER Hidemasa Bono, bonohu@gmail.com
 # Install packages
 RUN apt-get update &&\
-    apt-get upgrade &&\
     apt-get -y install wget &&\
     apt-get clean &&\
     apt-get -y install unzip &&\
