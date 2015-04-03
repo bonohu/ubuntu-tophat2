@@ -2,7 +2,7 @@
 
 FROM ubuntu
 MAINTAINER Hidemasa Bono, bonohu@gmail.com
-# Install packages
+# Install packages & make directory for calculation
 RUN apt-get update &&\
     apt-get -y install wget &&\
     apt-get -y install unzip &&\
