@@ -1,12 +1,11 @@
-#Docker container for tophat2 (revised)
+#Docker container for tophat2.0.14 with bowtie 2.2.5
+
 FROM ubuntu
 MAINTAINER Hidemasa Bono, bonohu@gmail.com
 # Install packages
 RUN apt-get update &&\
     apt-get -y install wget &&\
-    apt-get clean &&\
     apt-get -y install unzip &&\
-    apt-get clean &&\
     apt-get -y install python &&\
     apt-get clean &&\
     rm -rf /var/lib/apt/lists/* &&\
